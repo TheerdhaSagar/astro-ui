@@ -28,9 +28,27 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "./src/assets/css/magnific-popup.css",
+              "./src/assets/css/owl.theme.default.css",
+              "./src/assets/css/style.css",
+              "./src/assets/css/animate.css",
+              "./src/assets/css/font-awesome.css",
+              "./src/assets/css/fonts.css",
+              "./src/assets/js/slick/slick.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./src/assets/js/jquery.js",
+              "./src/assets/js/jquery.appear.js",
+              "./src/assets/js/jquery.countTo.js",
+              "./src/assets/js/bootstrap.js",
+              "./src/assets/js/owl.carousel.js",
+              "./src/assets/js/custom.js",
+              "./src/assets/js/step.js",
+              "./src/assets/js/magnific-popup.js",
+              "./src/assets/js/slick/slick.min.js"
+            ]
           },
           "configurations": {
             "production": {

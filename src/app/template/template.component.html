@@ -1,0 +1,194 @@
+<!-- Header Start -->
+<div class="ast_top_header">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="ast_contact_details">
+          <ul>
+            <li><i class="fa fa-phone" aria-hidden="true"></i> +91 9966443835</li>
+            <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> nsbastro@gmail.com</a></li>
+          </ul>
+        </div>
+        <div class="ast_autho_wrapper">
+          <ul>
+            <li><a class="popup-with-zoom-anim" href="#login-dialog"><i class="fa fa-sign-in" aria-hidden="true"></i> Log In</a></li>
+            <li><a class="popup-with-zoom-anim" href="#signup-dialog"><i class="fa fa-user-plus" aria-hidden="true"></i> Sign Up</a></li>
+            <li class="ast_search">
+              <a href="javascript:;"><i class="fa fa-search"></i></a>
+              <div class="ast_search_field">
+                <form>
+                  <input type="text" placeholder="Search Here">
+                  <button type="button"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+            </li>
+          </ul><!---->
+          <div id="login-dialog" class="zoom-anim-dialog mfp-hide">
+            <h1>Login Form</h1>
+            <form>
+              <input type="text" placeholder="Email">
+              <input type="password" placeholder="Password">
+              <div class="ast_login_data">
+                <label class="tp_custom_check" for="remember_me">Remember me <input type="checkbox" name="ast_remember_me" value="yes" id="ast_remember_me"><span class="checkmark"></span>
+                </label>
+                <a href="#">Forgot password ?</a>
+              </div>
+              <button type="submit" class="ast_btn">Login</button>
+              <p>Create An Account ? <a class="popup-with-zoom-anim" href="#signup-dialog">SignUp</a></p>
+            </form>
+          </div>
+          <div id="signup-dialog" class="zoom-anim-dialog mfp-hide">
+            <h1>signup form</h1>
+            <form>
+              <input type="text" placeholder="Name">
+              <input type="text" placeholder="Email">
+              <input type="password" placeholder="Password">
+              <input type="text" placeholder="Mobile Number">
+              <select>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+              <button type="submit" class="ast_btn">submit</button>
+              <p>Have An Account ? <a class="popup-with-zoom-anim" href="#login-dialog">Login</a></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ast_header_bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+        <div class="ast_logo">
+          <a href="index.html"><img src="images/header/logo.png" alt="Logo" title="Logo"></a>
+          <button class="ast_menu_btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+        </div>
+      </div>
+      <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+        <div class="ast_main_menu_wrapper">
+          <div class="ast_menu">
+            <ul>
+              <li><a (click)="home()">home</a></li>
+              <li><a>services</a>
+                <ul class="submenu">
+                  <li><a (click)="services('horoscope')">horoscopes</a></li>
+                  <li><a (click)="services('vastu')">vastu shastra</a></li>
+                  <li><a (click)="services('gem')">gemstones</a></li>
+                </ul>
+              </li>
+              <li><a (click)="appointment()">appointment</a></li>
+              <li><a (click)="contact()">contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Header End -->
+
+<div class="content-wrapper">
+  <router-outlet></router-outlet>
+</div>
+
+<!-- Download wrapper start-->
+<div class="ast_download_wrapper ast_toppadder70 ast_bottompadder70">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 col-lg-offset-2 col-md-offset-2 col-sm-offset-1 col-xs-offset-0">
+        <div class="ast_heading">
+          <h1>Download our <span>Mobile App (Soon)</span></h1>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected hummer.</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-lg-offset-3 col-md-offset-3">
+        <div class="ast_download_box">
+          <ul>
+            <li><a><img src="../../assets/images/content/download1.png" alt="Download" title="Download"></a></li>
+            <li><a><img src="../../assets/images/content/download2.png" alt="Download" title="Download"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Download wrapper End-->
+
+<!-- Footer wrapper start-->
+<div class="ast_footer_wrapper ast_toppadder70 ast_bottompadder20">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 col-lg-offset-2 col-md-offset-2 col-sm-offset-1 col-xs-offset-0">
+        <div class="ast_footer_info">
+          <img src="images/header/logo.png" alt="Logo">
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+          <ul>
+            <li><a><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+            <li><a><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+            <li><a><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+            <li><a><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <div class="widget text-widget">
+          <h4 class="widget-title">our newsletter</h4>
+          <div class="ast_newsletter">
+            <p>Making it look like readable English.The point of using Lorem Ipsum is that it has a more-or less normal distribution of letters.</p>
+            <div class="ast_newsletter_box">
+              <input type="text" placeholder="Email">
+              <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+        <div class="widget text-widget">
+          <h4 class="widget-title">our services</h4>
+          <div class="ast_servicelink">
+            <ul>
+              <li><a (click)="services('horoscope')">horoscopes</a></li>
+              <li><a (click)="services('gem')">gemstones</a></li>
+              <li><a (click)="services('vastu')">vastu shastra</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+        <div class="widget text-widget">
+          <h4 class="widget-title">quick links</h4>
+          <div class="ast_sociallink">
+            <ul>
+              <li><a>About</a></li>
+              <li><a>blog</a></li>
+              <li><a>contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <div class="widget text-widget">
+          <h4 class="widget-title">get in touch</h4>
+          <div class="ast_gettouch">
+            <ul>
+              <li><i class="fa fa-home" aria-hidden="true"></i> <p>H.No, 5-346/A, Deepthisree Nagar, Hyderabad - 500049</p></li>
+              <li><i class="fa fa-at" aria-hidden="true"></i> <a>itsupport@astronigam.com</a><a>info@astronigam.com</a></li>
+              <li><i class="fa fa-phone" aria-hidden="true"></i> <p>+91 9966443835</p><p>+91 9866413307</p></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="ast_copyright_wrapper">
+          <p>&copy; Copyright 2020, All Rights Reserved, <a href="#">Theerdha Sagar</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer wrapper End-->
+
